@@ -1,0 +1,92 @@
+.container {
+    margin: 0 auto;
+    background: white;
+    max-width: 1400px;
+    max-height: 595px;
+    text-align: center;
+
+}
+
+.header {
+    height: 250px;
+}
+.header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #212121;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px 495px 25px 496px;
+    margin: 0;
+    border-bottom: 1px solid #E72424;
+    width: 409px;
+    height: 38px;
+    
+}
+
+
+.header h2 {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 30px 518px 0 519px;
+    width: 363px;
+    height: 19px;
+}
+
+
+.Features {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 143px 89px 143px;
+    
+}
+
+.feature {
+    width: 350px;
+    text-align: center;
+    padding-left: 32px; 
+
+}
+
+.picture {
+    position: relative;
+    padding: 67px 0 30px 0;
+    margin: auto;
+    
+}
+
+.picture > img {
+    position: absolute;
+    top: 0;
+    left: 140px;  
+}
+
+.picture > img:first-child {
+    z-index: 2;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    height: 29px;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 16px;
+}
