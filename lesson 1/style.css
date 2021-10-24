@@ -115,3 +115,128 @@ hr.red-bg {
     line-height: 19px;
     text-align: center;
 }
+
+
+.container-2 {
+    
+    background: url('../lesson 3/img/fon.png') center center no-repeat;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    
+    background-size: cover;
+    /*max-width: 1400px;
+    min-height: 326px;*/
+    
+}
+
+.container-2:after {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 2;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.about {
+    position: relative;
+    z-index: 3;
+}
+
+
+h4 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+    padding: 76px 0 0;
+    
+}
+
+hr.white-bg {
+    background: #FFFFFF;
+    border: 0px;
+    height: 2px;
+    width: 64px;
+}
+
+h5 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 38px;
+}
+button {
+    background: none;
+    padding: 11px 26px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    width: 135px;
+    height: 42px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer {
+    background: #000000;
+    margin: 0;
+    height: 101px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    
+
+}
+
+.footer-navigation {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 0;
+   
+}
+
+.footer-navigation img {
+    width: 100%;
+    max-height: 30px;
+    
+}
+
+.footer p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    
+    color: rgba(255, 255, 255, 0.5);
+    height: 15px;
+    
+}
