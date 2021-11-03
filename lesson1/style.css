@@ -48,7 +48,7 @@ body {
 /*Основная информация*/
 
 .container-5 {
-    background: url('../lesson 4/bg.png') center center no-repeat;
+    background: url('../lesson4/bg.png') center center no-repeat;
     margin: auto auto -20px;
     
     width: 100%;
@@ -110,6 +110,10 @@ body {
     margin: 39px 0 0 110px;
 }
 
+.forma span {
+    text-transform: uppercase;
+    color: red;
+}
 .container-5 .forma {
     float: right;
     background: white;
@@ -363,14 +367,14 @@ h2 {
     justify-content: center;
 }
 .lamp {
-    background: url('../lesson 1/img/lamp.png') center center no-repeat;
+    background: url('../lesson1/img/lamp.png') center center no-repeat;
 }
 .comp {
-    background: url('../lesson 1/img/comp.png') center center no-repeat;
+    background: url('../lesson1/img/comp.png') center center no-repeat;
 }
 
 .light {
-    background: url('../lesson 1/img/light.png') center center no-repeat;
+    background: url('../lesson1/img/light.png') center center no-repeat;
 }
 
 .title {
@@ -544,7 +548,7 @@ h2 {
 
 .container-2 {
     
-    background: url('../lesson 3/img/fon.png') center center no-repeat;
+    background: url('../lesson3/img/fon.png') center center no-repeat;
     margin: auto;
     width: 100%;
     position: relative;
